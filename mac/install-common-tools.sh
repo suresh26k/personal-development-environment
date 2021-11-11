@@ -12,3 +12,5 @@ code --install-extension firefox-devtools.vscode-firefox-debug
 code --install-extension 2gua.rainbow-brackets
 code --install-extension ms-vscode-remote.remote-ssh-edit
 
+ # GitHub
+ brew install gh
