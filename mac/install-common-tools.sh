@@ -1,10 +1,18 @@
 #!/usr/bin/env bash
 
-# Bash
+# # Bash -------
 # touch ~/.bash_profile
-# echo "export PATH=${PATH}:/opt/homebrew/bin" >> .bash_profile
 
-# ZSH
+# # Paths
+# echo "export PATH=${PATH}:/opt/homebrew/bin" >> ~/.bash_profile
+
+# Alias
+# echo "alias ll='ls -la'" >> ~/.bash_profile
+# #-------------
+
+
+
+# # ZSH ---------
 # touch ~/.zshrc
 # cat <<EOF >> ~/.zshrc
 # if [ -f ~/.bash_profile ]; then 
@@ -12,12 +20,13 @@
 # fi
 # EOF
 # source ~/.zshrc
+# # -------------
 
 # Install brew
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install iTerm2
-brew install --cask iterm2
+# brew install --cask iterm2
 
 
 # # VSCODE Plugins
@@ -25,6 +34,7 @@ brew install --cask iterm2
 # code --install-extension firefox-devtools.vscode-firefox-debug
 # code --install-extension 2gua.rainbow-brackets
 # code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension eamodio.gitlens
 
 #  # GitHub
 #  brew install gh
