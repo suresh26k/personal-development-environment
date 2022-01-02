@@ -72,8 +72,11 @@
 ## Mermaid Diagram
 # code --install-extension bierner.markdown-mermaid
 
-#  # GitHub
+## GitHub
 #  brew install gh
+
+## JSON Formatting
+code --install-extension mohsen1.prettify-json
 
 # # AWS
 # curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"

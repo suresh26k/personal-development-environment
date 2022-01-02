@@ -6,6 +6,7 @@ https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 ### Settings
 
 ```json
+{
     "python.formatting.provider": "black",          // Set python formatter as black
     "python.formatting.blackPath": "black -S",      // Ignore quotes conversion in black
     "window.zoomLevel": 1,                          // Zoom screen - default is zero
@@ -19,6 +20,7 @@ https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
         "tab.activeForeground": "#ffcb72",          // Tab Foreground      
         "titleBar.activeBackground": "#342a1b"      // Tab Background          
     }
+}
 ```
 ## ITERM 2
 |||
