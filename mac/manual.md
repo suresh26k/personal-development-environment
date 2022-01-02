@@ -20,7 +20,7 @@ https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
         "tab.activeForeground": "#ffcb72",          // Tab Foreground      
         "titleBar.activeBackground": "#342a1b"      // Tab Background          
     }
-}
+} 
 ```
 ## ITERM 2
 |||
