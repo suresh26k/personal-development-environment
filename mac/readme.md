@@ -1,5 +1,10 @@
 # Mac Development Environment
 
+To configure development environment, run the following command
+
+```bash
+./configure-mac.sh
+```
 
 ## Features
 

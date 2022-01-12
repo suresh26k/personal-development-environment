@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-########################################################################################################################
-#       Author  : Suresh Kumar                                                                                         #
-#       Email   : gsuresh26kr@gmail.com                                                                                #
-#       About   : This script can be used to configure mac system                                                      #
-#       Use     : Execute this script with --help argument to know how to use this script                              #
-########################################################################################################################
+#####################################################################################################################################################################################
+#       Author  : Suresh Kumar                                                                                                                                                      #
+#       Email   : gsuresh26k@gmail.com                                                                                                                                              #
+#       GitHub  : suresh26k                                                                                                                                                         #
+#       About   : This script can be used to set up development environment on mac                                                                                                  #
+#       Use     : Execute this script with --help argument to know how to use this script. Please be careful with what you are doing and you are responsible if anything goes wrong.#
+#####################################################################################################################################################################################
+
 
 # Exit when any command fails
 set -e
