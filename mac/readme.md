@@ -19,8 +19,31 @@ https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
         "tab.activeBorder": "#ff8400",              // Tab Border  
         "tab.activeForeground": "#ffcb72",          // Tab Foreground      
         "titleBar.activeBackground": "#342a1b"      // Tab Background          
-    }
-} 
+    },
+    "autoDocstring.docstringFormat": "google",       // Google docs format
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true              // Organises/sorts python imports
+    },
+    // "python.linting.pylintCategorySeverity.warning": "Error",
+    "editor.renderLineHighlight": "all",            // Highlights current line
+    "editor.renderWhitespace": "all",               // Shows white spaces
+    "aws.telemetry": false,                         // Stops sending anonymous data to AWS
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        // "**/.venv": true,
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.venv": true,
+        "**/*.code-search": true
+    },
+
+}
 ```
 ## ITERM 2
 |||
