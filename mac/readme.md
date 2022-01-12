@@ -7,7 +7,7 @@
 | ------------------------- | -------------------------------------------- |
 | OH-MY-ZSH                 | NA                                           |
 | Install Brew Packages     | [tools/brew.md](tools/brew.md)               |
-| Install NPM Packages      | [tools/brew.md](tools/npm.md)                |
+| Install NPM Packages      | [tools/npm.md](tools/npm.md)                |
 | Install VSCode Plugins    | [vscode/extensions.md](vscode/extensions.md) |
 | Configure VSCode Settings | [vscode/settings.json](vscode/settings.json) |
 
