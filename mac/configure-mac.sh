@@ -159,7 +159,7 @@ function main() {
     setup_shell
 
     # VSCode Setup
-    # setup_vscode
+    setup_vscode
 
     install_tools
 }

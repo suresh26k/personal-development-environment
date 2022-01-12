@@ -40,6 +40,8 @@ boto3typed.boto3-ide
 ## For VIM
 #vscodevim.vim
 
+## Markdown
+yzhang.markdown-all-in-one
 ## Mermaid Diagram
 bierner.markdown-mermaid
 
@@ -83,3 +85,4 @@ amazonwebservices.aws-toolkit-vscode
 
 ## Docker
  ms-vscode-remote.remote-containers
+
