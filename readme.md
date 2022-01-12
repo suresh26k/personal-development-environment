@@ -7,8 +7,8 @@ Go to appropriate directory
 cd mac
 ```
 
-## Common tools installation
+## Setup development environment
 
 ```bash
-./install-common-tools.sh
+./configure-mac.sh
 ```
