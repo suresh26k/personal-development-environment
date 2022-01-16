@@ -84,5 +84,7 @@ tabnine.tabnine-vscode
 amazonwebservices.aws-toolkit-vscode
 
 ## Docker
- ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-containers
 
+## YAML
+redhat.vscode-yaml
