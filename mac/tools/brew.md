@@ -16,5 +16,8 @@ vagrant
 ## JQ
 jq
 
+## Draw IO
+--cask drawio
+
 ## Tree for creating directory tree
 tree
