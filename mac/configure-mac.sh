@@ -109,6 +109,11 @@ function setup_shell() {
 
         # Alias
         echo "alias ll='ls -la'" >> ~/.bash_profile
+        echo -e "\nalias @replace_aws_config='rm ~/.aws/credentials && code ~/.aws/credentials'" >> ~/.bash_profile
+
+        # AWS Parameters
+        echo "export AWS_PROFILE=289651055137_administrator-access" >> ~/.bash_profile
+        echo "export AWS_PAGER=''" >> ~/.bash_profile
     else
         echo "$_NOTE_TEXT-> Skipping bash configuration since file already exists. $_NORMAL_TEXT"
     fi
