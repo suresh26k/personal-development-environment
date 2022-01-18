@@ -108,11 +108,15 @@ function setup_shell() {
         echo "export PATH=${PATH}:/opt/homebrew/bin" >> ~/.bash_profile
 
         # Alias
+        echo -e "\n# My custom aliases" >> ~/.bash_profile
         echo "alias ll='ls -la'" >> ~/.bash_profile
-        echo -e "\nalias @replace_aws_config='rm ~/.aws/credentials && code ~/.aws/credentials'" >> ~/.bash_profile
+        echo "alias @new_aws_config='rm ~/.aws/credentials && code ~/.aws/credentials'" >> ~/.bash_profile
+        echo "alias @readme='code readme.md'" >> ~/.bash_profile
+        echo "alias @bash_profile='code ~/.bash_profile'" >> ~/.bash_profile
 
         # AWS Parameters
-        echo "export AWS_PROFILE=289651055137_administrator-access" >> ~/.bash_profile
+        echo -e "\n# My custom exports" >> ~/.bash_profile
+        echo "export AWS_PROFILE=default" >> ~/.bash_profile
         echo "export AWS_PAGER=''" >> ~/.bash_profile
     else
         echo "$_NOTE_TEXT-> Skipping bash configuration since file already exists. $_NORMAL_TEXT"
