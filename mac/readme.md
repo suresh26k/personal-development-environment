@@ -25,5 +25,8 @@ To configure development environment, run the following command
 - NodeJS: https://nodejs.org/en/download/
 - VSCode:
     - Install `code` to `$PATH`: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
-
+- Oh My ZSH:
+    - https://shandou.medium.com/how-to-shorten-zsh-prompt-oh-my-zsh-14185f3e7ab7
+- Pycharm
+    - Enable Meta -> Preference and search for meta
 
