@@ -51,7 +51,6 @@ njpwerner.autodocstring
 ## Python Indent
 kevinrose.vsc-python-indent
 
-
 ## Intellicode - AI based Development for python
 visualstudioexptteam.vscodeintellicode
 
@@ -64,7 +63,7 @@ ban.spellright
 ## Import Cost
 wix.vscode-import-cost
 
-# Windows PowerShell
+## Windows PowerShell
 ms-vscode.powershell
 ms-vscode.powershell-preview
 
@@ -83,17 +82,20 @@ redhat.vscode-yaml
 ## Python
 ms-python.python
 
-# Python - AutoPep 8
+## Python - AutoPep 8
 himanoa.Python-autopep8
 
-## Python Documentation
+## Python - Documentation
 deerawan.vscode-dash
 
 ## Python Indent
 oderwat.indent-rainbow
 
-# Python - Snippets
+## Python - REPL - Real Time
+almenon.arepl
+
+## Python - Snippets
 cstrap.python-snippets
 
-# Python - Tests
+## Python - Tests
 littlefoxteam.vscode-python-test-adapter
