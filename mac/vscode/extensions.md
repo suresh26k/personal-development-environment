@@ -3,9 +3,6 @@
 ## Bash Server
 mads-hartmann.bash-ide-vscode
 
-## Python
-ms-python.python
-
 ## Firefox Dev Tools
 firefox-devtools.vscode-firefox-debug
 
@@ -58,14 +55,8 @@ kevinrose.vsc-python-indent
 ## Intellicode - AI based Development for python
 visualstudioexptteam.vscodeintellicode
 
-## Python Documentation
-deerawan.vscode-dash
-
 ## Bookmarks
 alefragnani.bookmarks
-
-## Python Indent
-oderwat.indent-rainbow
 
 ## Spelling
 ban.spellright
@@ -88,3 +79,21 @@ ms-vscode-remote.remote-containers
 
 ## YAML
 redhat.vscode-yaml
+
+## Python
+ms-python.python
+
+# Python - AutoPep 8
+himanoa.Python-autopep8
+
+## Python Documentation
+deerawan.vscode-dash
+
+## Python Indent
+oderwat.indent-rainbow
+
+# Python - Snippets
+cstrap.python-snippets
+
+# Python - Tests
+littlefoxteam.vscode-python-test-adapter
