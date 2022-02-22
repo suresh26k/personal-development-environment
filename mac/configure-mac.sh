@@ -118,6 +118,9 @@ function setup_shell() {
         echo -e "\n# My custom exports" >> ~/.bash_profile
         echo "export AWS_PROFILE=default" >> ~/.bash_profile
         echo "export AWS_PAGER=''" >> ~/.bash_profile
+
+        # mcfly
+        echo 'eval "$(mcfly init zsh)"' >>  ~/.bash_profile
     else
         echo "$_NOTE_TEXT-> Skipping bash configuration since file already exists. $_NORMAL_TEXT"
     fi

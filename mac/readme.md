@@ -30,3 +30,9 @@ To configure development environment, run the following command
 - Pycharm
     - Enable Meta -> Preference and search for meta
 
+## Other Development Tools
+
+- McFly shell history: github.com
+- Fig IO enhanced shell: fig.io
+- Ref
+  - https://talkpython.fm/episodes/show/345/10-tips-and-tools-for-developer-productivity
