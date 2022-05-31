@@ -99,3 +99,20 @@ cstrap.python-snippets
 
 ## Python - Tests
 littlefoxteam.vscode-python-test-adapter
+
+## Web Development
+
+### For making API call, postman alternative
+rangav.vscode-thunder-client
+
+### ES7
+dsznajder.es7-react-js-snippets
+
+###
+formulahendry.auto-rename-tag
+
+###
+ritwickdey.LiveServer
+
+###
+esbenp.prettier-vscode

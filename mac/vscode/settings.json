@@ -6,11 +6,11 @@
     "vim.smartRelativeLine": true, // Shows relative line numbers - helps to jump to specific lines - LineNumber + "j"
     "editor.multiCursorModifier": "ctrlCmd", // Helps to modify multiple lines
     "workbench.colorCustomizations": {
-        // "tab.activeBackground": "#d79b05",       // Tab Background
+        "tab.activeBackground": "#000000",       // Tab Background
         "tab.activeBorderTop": "#ff8400", // Tab Border Top      
         "tab.activeBorder": "#ff8400", // Tab Border  
         "tab.activeForeground": "#ffcb72", // Tab Foreground      
-        "titleBar.activeBackground": "#342a1b" // Tab Background          
+        "titleBar.activeBackground": "#000000" // Title Bar Background          
     },
     "autoDocstring.docstringFormat": "google", // Google docs format
     "editor.codeActionsOnSave": {
@@ -33,5 +33,7 @@
         "**/node_modules": true,
         "**/.venv": true,
         "**/*.code-search": true
-    }
+    },
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace,'Source Code Pro for Powerline', 'Hack Nerd Font'"
 }

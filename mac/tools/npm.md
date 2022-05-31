@@ -2,3 +2,6 @@
 
 ## AWS CDK
 aws-cdk
+
+## Mermaid CLI
+mermaid.cli
