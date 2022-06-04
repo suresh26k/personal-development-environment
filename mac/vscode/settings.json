@@ -35,5 +35,12 @@
         "**/*.code-search": true
     },
     "tabnine.experimentalAutoImports": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace,'Source Code Pro for Powerline', 'Hack Nerd Font'"
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace,'Source Code Pro for Powerline', 'Hack Nerd Font'",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "terminal.integrated.macOptionIsMeta": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
